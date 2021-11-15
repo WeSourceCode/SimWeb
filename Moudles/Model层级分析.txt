@@ -1,0 +1,6 @@
+PO：持久化对象，实体属性与表字段一一对应，DAO层产生，在Service层被使用。
+BO：业务对象，聚合PO层数据，也可以多表关联数据查询聚合，内部会有属性的业务逻辑处理方法。DAOService层产生，Service层使用。
+DTO：数据传输对象，常用语service层，rpc层，controller层，用于数组传输的载体，内部无逻辑
+VO：数据展示层，用于controller层，这里我习惯与方法的出参，用于切合DTO与VO层的结构差异。
+Query：查询参数，controller层方法入参，接收前端的查询类型参数。
+Command：指令性型参数，例如用户新增，用户修改的数据载体。
