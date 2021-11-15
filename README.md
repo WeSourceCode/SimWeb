@@ -23,4 +23,4 @@ dotnet new -i SimWeb.Template
 
 nuget地址 https://www.nuget.org/packages/SimWeb.Template/
 
-官方正在开发中
+官方网站正在开发中
